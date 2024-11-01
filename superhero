@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Superheroes</title>
+
+        <style>
+            img
+            {
+                height: 100px;
+            }
+            td, th
+            {
+                border: 2px solid black;
+                padding: 15px;
+                
+            }
+            table
+            {
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: rgb(4, 59, 230);
+                font-size: 18px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>My Superheroes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Image</th>
+                    <th>Superpowers</th>
+                    <th>Weaknesses</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                    <th>Thor</th>
+                    <td>Thorer</td>
+                    <td><a href="images/thor.jpeg"><img src="images/thor.jpeg" alt="Thor Pic"></a></td>
+                    <td>
+                      <li>Mjolnir (his hammer)</li>
+                      <li>Flight</li>
+                      <li>Superhuman Strength</li>
+                      <li>God of thunder</li>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Doesn't have a weakness unless you consider his madness that causes the warrior to turn on his allies one</li>                        
+                        </ul>
+                    </td>
+                </tr> 
+              <tr>
+                    <th>Iron Man</th>
+                    <td>Tony&nbsp;Stark</td>
+                    <td><a href="images/ironman.jpeg"><img src="images/ironman.jpeg" alt="Iron Man Pic"></a></td>
+                    <td>
+                    <li>bonding his mind and body and armor</li>                  
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Fake heart thats exposed</li>
+                            <li>armour failing</li>
+                        </ul>
+                    </td>
+                </tr> 
+              <tr>
+                    <th>Captain America</th>
+                    <td>Steve&nbsp;Rogers </td>
+                    <td><a href="images/captainamerica.jpeg"><img src="images/captainamerica.jpeg" alt="Superman Pic"></a></td>
+                    <td>
+                      <li>Flight</li>
+                      <li>Superstrength</li>
+                      <li>Advenced healing</li>
+                      <li>Enhanced senses</li>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Beleif in always doing the right thing leads him to bas situations</li>                            
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Hulk</th>
+                    <td>Bruce&nbsp;Banner</td>
+                    <td><a href="images/hulk.jpeg"><img src="images/hulk.jpeg" alt="Hulk Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Super strength</li>
+                            <li>Healing</li>
+                            <li>Jump great distances</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <li>Being dumb</li>                     
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
