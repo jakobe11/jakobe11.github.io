@@ -1,6 +1,6 @@
 :root
 {
-  --light-Blue: #77cedf;
+  --grey: #5c5c4c;
   --pom-red: #ec380d;
   --lilac: #e09eec;
 }
@@ -10,7 +10,7 @@ body
 }
 *
 {
-    color: var(--light-Blue);
+    color: var(--grey);
     text-align: center;
 }
 h1
@@ -25,7 +25,7 @@ nav
 }
 section
 {
-    border: 5px var(--light-Blue) solid;
+    border: 5px var(--grey) solid;
     margin: 18vw;
     margin-top: 30px;
 }
