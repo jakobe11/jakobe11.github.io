@@ -1,0 +1,41 @@
+:root
+{
+  --light-Blue: #77cedf;
+  --pom-red: #ec380d;
+  --lilac: #e09eec;
+}
+body
+{
+    background-color: var(--lilac);
+}
+*
+{
+    color: var(--light-Blue);
+    text-align: center;
+}
+h1
+{
+    font-size: calc(16pt + 4vw);
+}
+nav
+{
+    border: 7px var(--pom-red) solid;
+    margin: 8vw;
+    margin-top: 5px;
+}
+section
+{
+    border: 5px var(--light-Blue) solid;
+    margin: 18vw;
+    margin-top: 30px;
+}
+.date
+{
+    color: var(--pom-red);
+    white-space: nowrap;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0px;
+}
